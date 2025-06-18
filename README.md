@@ -39,7 +39,7 @@ DeepPhish is a web-based phishing detection system that helps users identify sus
 
 DeepPhish/
 ├── backend/       # Node.js API for user management and detection logic
-├── backend/data          # Pre-labeled phishing and safe URLs
+├── backend/data   # Pre-labeled phishing and safe URLs
 ├── python/        # Flask server with ML models
 ├── frontend/      # React app for UI
 
