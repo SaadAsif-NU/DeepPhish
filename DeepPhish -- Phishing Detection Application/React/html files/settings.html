@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - Change Password</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="nav.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="settings.css" />
+  </head>
+  <body class="login-body">
+    <nav class="navbar navbar-expand-lg navbar-custom">
+      <div class="container-fluid">
+        <!-- App Name -->
+        <a class="navbar-brand navbar-logo" href="#">Threat Detection</a>
+
+        <!-- Right Section -->
+        <div class="d-flex align-items-center">
+          <span class="navbar-user-name">John Doe</span>
+          <a href="#" class="navbar-icon-link" title="Settings">
+            <i class="bi bi-gear navbar-icon"></i>
+          </a>
+          <a href="#" class="navbar-icon-link" title="Logout">
+            <i class="bi bi-box-arrow-right navbar-icon"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="container vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="card settings-card shadow-lg">
+        <div class="card-header text-center settings-card-header">
+          <h2 class="settings-card-title">Change Password</h2>
+        </div>
+        <div class="card-body settings-card-body">
+          <form>
+            <div class="mb-3">
+              <label for="old-password" class="form-label settings-label"
+                >Old Password</label
+              >
+              <input
+                type="password"
+                class="form-control settings-input"
+                id="old-password"
+                placeholder="Enter old password"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="new-password" class="form-label settings-label"
+                >New Password</label
+              >
+              <input
+                type="password"
+                class="form-control settings-input"
+                id="new-password"
+                placeholder="Enter new password"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label
+                for="confirm-new-password"
+                class="form-label settings-label"
+                >Confirm New Password</label
+              >
+              <input
+                type="password"
+                class="form-control settings-input"
+                id="confirm-new-password"
+                placeholder="Confirm new password"
+                required
+              />
+            </div>
+            <div class="text-center mt-4">
+              <button type="submit" class="btn settings-btn">
+                Update Password
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

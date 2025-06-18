@@ -1,0 +1,11 @@
+Flask
+Flask-Cors
+requests
+PySimpleGUI
+python-dotenv
+python-whois
+beautifulsoup4
+nltk
+scikit-learn
+pandas
+

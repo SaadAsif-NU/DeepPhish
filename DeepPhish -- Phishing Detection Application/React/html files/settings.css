@@ -1,0 +1,70 @@
+/* General Styles */
+.login-body {
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Card Styles */
+.settings-card {
+  max-width: 500px; /* Adjust card width */
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: white;
+  overflow-y: auto;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.settings-card-header {
+  background-color: #20b2aa; /* Teal green */
+  color: #fff;
+  border-radius: 12px 12px 0 0;
+  padding: 15px 10px;
+}
+
+.settings-card-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+/* Form Styles */
+.settings-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.settings-input {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.9rem;
+  border: 1px solid #ddd;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+.settings-input:focus {
+  border-color: #20b2aa;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(32, 178, 170, 0.5);
+}
+
+/* Button Styles */
+.settings-btn {
+  background-color: #20b2aa;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.settings-btn:hover {
+  background-color: #178f87;
+  color: white;
+  box-shadow: 0px 4px 8px rgba(32, 178, 170, 0.3);
+}

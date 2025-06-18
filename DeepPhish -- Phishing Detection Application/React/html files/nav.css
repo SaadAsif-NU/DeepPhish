@@ -1,0 +1,44 @@
+/* Navbar Styles */
+.navbar-custom {
+  background-color: #20b2aa;
+  padding: 10px 20px;
+  color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  margin-right: auto;
+}
+
+.navbar-logo:hover {
+  color: #e5e5e5;
+}
+
+/* User Name */
+.navbar-user-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 15px;
+}
+
+/* Icon Links */
+.navbar-icon-link {
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 0 8px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar-icon-link:hover {
+  color: #e5e5e5;
+}
+
+.navbar-icon {
+  vertical-align: middle;
+}

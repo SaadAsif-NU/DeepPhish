@@ -1,0 +1,84 @@
+/* General Styles */
+.login-body {
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+/* Card Styles */
+.history-card {
+  border: none;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  height: 350px; /* Fixed height for both cards */
+  overflow-y: auto; /* Ensure content is scrollable */
+}
+
+.history-card-header {
+  background-color: #20b2aa;
+  color: white;
+  border-radius: 12px 12px 0 0;
+  padding: 15px;
+}
+
+.history-card-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+/* Table Styles */
+.history-table {
+  max-height: calc(450px - 60px); /* Adjust for card height minus header */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #eaf4f4;
+}
+
+.table-light {
+  background-color: #e5e5e5;
+  color: #555;
+}
+
+/* Content Styles */
+.history-content {
+  max-height: calc(450px - 60px); /* Adjust for card height minus header */
+}
+
+.history-content-item {
+  margin-bottom: 15px;
+}
+
+.history-content-item p {
+  margin: 5px 0;
+}
+
+/* Scrollbar Styles */
+.history-card-body {
+  scrollbar-width: thin;
+  scrollbar-color: #20b2aa #e5e5e5;
+}
+
+.history-card-body::-webkit-scrollbar {
+  width: 8px;
+}
+
+.history-card-body::-webkit-scrollbar-track {
+  background: #e5e5e5;
+  border-radius: 8px;
+}
+
+.history-card-body::-webkit-scrollbar-thumb {
+  background-color: #20b2aa;
+  border-radius: 8px;
+}
+
+.history-card-body::-webkit-scrollbar-thumb:hover {
+  background-color: #178f87;
+}
