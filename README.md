@@ -74,6 +74,7 @@ MONGO_URI=mongodb://127.0.0.1:27017/phishingdb
 
 ```bash
 cd ../python
+cd DeepPhish
 pip install -r requirements.txt 
 python app.py
 ```
