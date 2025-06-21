@@ -133,3 +133,6 @@ npm start
 Final Year CS Student | Cybersecurity, AL, ML & Full Stack Enthusiast
 LinkedIn: [https://www.linkedin.com/in/saadasif-nu/](https://www.linkedin.com/in/saadasif-nu/)
 
+**Muhammad Hammad**
+Final Year CS Student | Cybersecurity, AL, ML & Full Stack Enthusiast
+LinkedIn: [https://www.linkedin.com/in/muhammad-hammad-69aa36248/](https://www.linkedin.com/in/muhammad-hammad-69aa36248/)
