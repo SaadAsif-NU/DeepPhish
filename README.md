@@ -49,7 +49,7 @@ DeepPhish/
 ---
 
 ### ⚙️ Setup Instructions
-
+### GO into main directory DeepPhish -- Phishing Detection Application
 
 ### 1. Start Backend (Node.js)
 Make sure your MongoDB is running locally.
