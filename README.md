@@ -37,11 +37,11 @@ DeepPhish is a web-based phishing detection system that helps users identify sus
 
 ```
 
-DeepPhish/
-├── backend/       # Node.js API for user management and detection logic
-├── backend/data   # Pre-labeled phishing and safe URLs
-├── python/        # Flask server with ML models
-├── frontend/      # React app for UI
+DeepPhish -- Phishing Detection Application/
+├── Backend/                     # Node.js API for user management and detection logic
+├── Backend/data                 # Pre-labeled phishing and safe URLs
+├── Python/DeepPhish--Python     # Flask server with ML models
+├── React/front-end/             # React app for UI
 
 
 ````
@@ -49,12 +49,12 @@ DeepPhish/
 ---
 
 ### ⚙️ Setup Instructions
-### GO into main directory DeepPhish -- Phishing Detection Application
+### GO into directory DeepPhish -- Phishing Detection Application
 
 ### 1. Start Backend (Node.js)
 Make sure your MongoDB is running locally.
 ```bash
-cd backend
+cd Backend
 npm install #for first time
 node app.js
 ```
@@ -73,8 +73,8 @@ MONGO_URI=mongodb://127.0.0.1:27017/phishingdb
 ### 2. Start Python ML Server (Flask)
 
 ```bash
-cd ../python
-cd DeepPhish
+cd ../Python
+cd DeepPhish--Python
 pip install -r requirements.txt 
 python app.py
 ```
